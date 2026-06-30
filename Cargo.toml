@@ -1,0 +1,8 @@
+[package]
+name = "humanize_text"
+version = "0.1.0"
+edition = "2021"
+description = "A simple Rust utility to make AI-generated text more natural while preserving article structure."
+license = "MIT"
+
+[dependencies]
