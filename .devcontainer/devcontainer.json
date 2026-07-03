@@ -1,5 +1,5 @@
 {
-  "name": "Rust Humanize Text",
+  "name": "Rust Humanize Text OpenRouter",
   "image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
   "customizations": {
     "vscode": {
@@ -9,5 +9,5 @@
       ]
     }
   },
-  "postCreateCommand": "cargo build"
+  "postCreateCommand": "cargo fetch"
 }
