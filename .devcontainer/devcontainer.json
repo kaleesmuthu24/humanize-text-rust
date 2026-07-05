@@ -1,13 +1,9 @@
 {
-  "name": "Rust Humanize Text",
+  "name": "Rust OpenRouter Humanize Text",
   "image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "rust-lang.rust-analyzer",
-        "tamasfe.even-better-toml"
-      ]
+      "extensions": ["rust-lang.rust-analyzer"]
     }
-  },
-  "postCreateCommand": "cargo check"
+  }
 }
