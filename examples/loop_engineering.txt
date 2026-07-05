@@ -16,7 +16,7 @@ Loop Engineering builds on these practices and makes them even more important in
 
 AI coding tools can improve productivity, but they can also create new risks. A generated code block may look correct but miss an important business rule. A generated test may pass but not cover the right scenario. A generated API may compile but fail to follow security or architecture standards. Without a strong feedback loop, teams may move faster while also increasing hidden risk.
 
-A practical Loop Engineering model can be explained through six feedback loops.
+A practical Loop Engineering model can be explained through six feedback loops. 
 
 The first is the **intent loop**. Before any code is written or generated, the team must be clear about the purpose of the change. What business problem are we solving? Which application or service is affected? What should be changed? What should not be changed? This is especially important when using AI tools because unclear instructions can produce output that looks good but does not fit the real system.
 
