@@ -1,0 +1,38 @@
+{
+  "name": "loop_engineering_reference_article",
+  "version": "1.0.0",
+  "description": "Rewrite Loop Engineering text into a practitioner-style publication article using a reference-article structure.",
+  "style": "reference-article",
+  "default_title": "Loop Engineering: Building Better Software Through Feedback",
+  "required_sections": [
+    "Key Takeaways",
+    "Why This Topic Matters",
+    "What Is Loop Engineering?",
+    "AI-Assisted Development as the Constraint",
+    "What Hurts",
+    "What Actually Helps",
+    "The Six Feedback Loops",
+    "Example: AI-Assisted UI Generation",
+    "Example: Modernization",
+    "Bringing It All Together",
+    "Conclusion"
+  ],
+  "avoid_phrases": [
+    "rapidly evolving digital landscape",
+    "criticality",
+    "robust mechanisms",
+    "transformative",
+    "seamless",
+    "invaluable",
+    "meticulously",
+    "advent of AI",
+    "cohesive self-improving system"
+  ],
+  "preferred_model_settings": {
+    "temperature": 0.82,
+    "frequency_penalty": 0.25,
+    "presence_penalty": 0.15,
+    "max_tokens": 5200,
+    "max_chunk_chars": 20000
+  }
+}
